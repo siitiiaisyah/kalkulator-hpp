@@ -42,7 +42,7 @@
             ALAT USAHA &nbsp;/&nbsp; KALKULATOR HPP
         </div>
 
-        <div class="masthead-actions">
+          <div class="masthead-actions">
             <a href="<?= site_url('riwayat'); ?>" class="btn-header" title="Lihat Riwayat Perhitungan">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <circle cx="12" cy="12" r="10"></circle>
@@ -50,6 +50,17 @@
                 </svg>
                 <span>Riwayat</span>
             </a>
+
+            <!-- TOMBOL BARU: Bahan Master -->
+            <a href="<?= site_url('master_bahan'); ?>" class="btn-header" title="Kelola Bahan Master">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                </svg>
+                <span>Bahan Master</span>
+            </a>
+
             <button type="button" class="btn-header primary" id="btn-simpan-master" onclick="simpanData()" title="Simpan perhitungan ke database">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>

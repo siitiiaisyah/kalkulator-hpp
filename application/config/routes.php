@@ -56,3 +56,4 @@ $route['riwayat/cetak/(:num)'] = 'riwayat/cetak/$1';
 $route['riwayat/hapus/(:num)'] = 'riwayat/hapus/$1';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+$route['bahan-master'] = 'master_bahan';
